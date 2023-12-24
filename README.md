@@ -34,15 +34,20 @@ Para que os exemplos sejam executados, será necessário que seu ambiente esteja
 
 #### Passo a passo de instalação Java 17 Linux (Ubuntu)
 
-1 - Abrir um terminal (CTRL + ALT + T)
-2 - Digitar o seguinte comando
-`sudo add-apt-repository ppa:linuxuprising/java`
-Aceitar os termos, apertando ENTER
-3 - Atualizar o gerenciador de pacotes
-`sudo apt-get update`
-4 - Instalar o Java 17
-`sudo apt-get install oracle-java17-installer --install-recommends`
-5 - Pra ter certeza se o Java está instalado, digite `java -version`
+1 - Abrir um terminal (CTRL + ALT + T) <br>
+
+2 - Digitar o seguinte comando <br>
+`sudo add-apt-repository ppa:linuxuprising/java` <br>
+
+Aceitar os termos, apertando ENTER <br>
+
+3 - Atualizar o gerenciador de pacotes <br>
+`sudo apt-get update` <br>
+
+4 - Instalar o Java 17 <br>
+`sudo apt-get install oracle-java17-installer --install-recommends` <br>
+
+5 - Pra ter certeza se o Java está instalado, digite `java -version` <br>
 
 ##### Observação
 
@@ -72,14 +77,17 @@ Se por acaso o Java não estiver sendo reconhecido no terminal, adicione o JAVA_
 - **vscjava.vscode-maven** (Caso você queira instalar o gerenciador de pacotes maven na sua máquina)
 - **vscjava.vscode-java-test**
 
-Após todo o ambiente configurado, você pode executar os exemplos com o comando:
-`java caminho/para/o/arquivo.java`
-ou caso esteja no mesmo diretório/pacote do arquivo:
-`java NomeDoArquivo.java`
-Você também pode clicar no botão `run` localizado acima da classe main, conforme imagem:
-![Localização do borão run](run_java.png)
-Ou no botão "play" do VScode:
-![Localização do botão play](play_java.png)
+Após todo o ambiente configurado, você pode executar os exemplos com o comando: <br>
+`java caminho/para/o/arquivo.java` <br>
+
+ou caso esteja no mesmo diretório/pacote do arquivo: <br>
+`java NomeDoArquivo.java` <br>
+
+Você também pode clicar no botão `run` localizado acima da classe main, conforme imagem: <br>
+![Localização do borão run](run_java.png) <br>
+
+Ou no botão "play" do VScode: <br>
+![Localização do botão play](play_java.png) <br>
 
 <hr>
 
