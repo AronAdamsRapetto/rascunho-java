@@ -15,17 +15,17 @@ public class ColecaoHashMap {
      * Adiciona valores no HashMap
      * Chaves iguais não são permitidas, ao adicionar chaves iguais, o valor da última adição é o que irá prevalecer
      */
-    notas.put("Aron", 9);
-    notas.put("Lola", 10);
-    notas.put("Luli", 10);
-    notas.put("Nega", 10);
-    notas.put("Nega", 5);
+    notas.put("João", 9);
+    notas.put("Jorge", 10);
+    notas.put("Maria", 10);
+    notas.put("Adriana", 10);
+    notas.put("Adriana", 5);
 
     /*
      * Pega valor através da chave
      * var trabalha por inferência de tipo (Apenas para as variaveis que ele sabe o tipo)
      */
-    var nota = notas.get("Aron");
+    var nota = notas.get("João");
     System.out.println(nota);
 
     /*

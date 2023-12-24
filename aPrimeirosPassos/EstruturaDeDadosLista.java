@@ -9,10 +9,10 @@ public class EstruturaDeDadosLista {
      * Na definição de tipos da interface de estruturas, não é aceito tipos primitivos, apenas objetos.
      */
     List<String> nomes = new ArrayList<>();
-    nomes.add("Lola");
-    nomes.add("Nega");
-    nomes.add("Luli");
-    nomes.add("Aron");
+    nomes.add("João");
+    nomes.add("Jorge");
+    nomes.add("Maria");
+    nomes.add("Rubesvaldo");
 
     // Pega valor pelo index
     System.out.println(nomes.get(3));

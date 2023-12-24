@@ -14,7 +14,7 @@ public class TesteDePessoa {
     // Os atributos e métodos podem ser acessados usando a notação de '.'
     
     pessoa1.cpf = "33322211100";
-    pessoa1.nome = "Aron";
+    pessoa1.nome = "João";
     pessoa1.idade = 26;
 
     
@@ -29,7 +29,7 @@ public class TesteDePessoa {
 
     Pessoa pessoa2 = new Pessoa();
     pessoa2.cpf = "44455566600";
-    pessoa2.nome = "Nega";
+    pessoa2.nome = "Maria";
     pessoa2.idade = 47;
 
     // System.out.println(pessoa2.nome);
