@@ -8,7 +8,7 @@ Qualquer dúvida, contribuição ou correção são extremamente bem vindas! <3
 
 ## Criação :bookmark_tabs:
 
-Este material foi criado e adaptado a partir de uma série de aulas da Rocketseat sobre os Fundamentos do Java. A grande parte dos exemplos são de autoria da Educadora Dani Leão e outros minha. Os comentários de explicação no código são fruto do meu entendimento sobre os conteitos apresentados nas aulas, sujeitos a erros grámaticas, então não repara... :sweat_smile:
+Este material foi criado e adaptado a partir de uma série de aulas da Rocketseat sobre os Fundamentos do Java. A grande parte dos exemplos são de autoria da Educadora Dani Leão e outros são meus. Os comentários de explicação no código são fruto do meu entendimento sobre os conteitos apresentados nas aulas, sujeitos a erros gramaticais, então não repara... :sweat_smile:
 
 <hr>
 
@@ -86,7 +86,7 @@ Ou no botão "play" do VScode:
 ## Sobre o Java :mag:
 
 Java é uma linguagem multiplataforma, no estilo WORA(Write Once, Run Anywhere), ou seja, independente de onde você escrever o código, ele poderá ser executado em qualquer outra plataforma, sem a necessidade escrever um novo código.
-Java é uma linguagem compilada e mas pode-se dizer que é interpretada também, porque isso?!
+Java é uma linguagem compilada e pode-se dizer que é interpretada também, porque isso?!
 Através do JavaC(Java Compiler) o código fonte é compilado, tranformando ele em um Bytecode, mas ele ainda não pode ser executado dessa forma.
 JVM(Java Virtual Machine) é uma maquina virtual responsável por interpretar e executar o Bytecode, portanto, independende do sistema, se houver uma JVM instalada na máquina, a aplicação poderá ser executada trazendo então esse conceito Write Once, Run Anywhere. Então, Java é uma linguagem compilada pelo JavaC e interpretada pela JVM.
 
@@ -95,4 +95,4 @@ JVM(Java Virtual Machine) é uma maquina virtual responsável por interpretar e 
 JRE(Java Runtime Environment) e JDK(Java Development Kit) são duas ferramentas do Java para execução e desenvolvimento respectivamente. O JRE disponibiliza somente o necessário para executar a aplicação, ele é responsável por disponibilizar a JVM, algumas bibliotecas, suporte e recursos para a execução do sistema Java, é o JRE que é instalado na máquina que irá  rodar a aplicação. O JDK como próprio nome diz, é um pacote para desenvolvimento de aplicações Java, dentro dele haverá tudo que vem com o JRE e mais algumas coisas como JavaTools, JavaC, debugger, APIs, e mais.
 
 #### Arquitetura
-A arquitetura Java é projetada para ser robusta, segura e portátil, ela possui um forte foco na organização e modularidade de código, isto é, a divisão de um programa em componentes independentes e intercambiáveis. No java pacotes(packages) são usados para organizar classes e interfaces relacionadas, elas funcionam como namespaces para evitar conflitos de nomes, um pacote é efetivamente um diretório no sistema de arquivos. Geralmente, os nomes dos pacotes são escritos com a primeira letra  minúscula por convenção (camelCase), para evitar conflito com nomes de classes ou interfaces que são escritas com a primeira letra maiúscula (PascalCase). Os arquivos de código-fonte possuem a extenção `.java` e arquivos bytecode compilado `.class`. Os arquivos de código-fonte `.java` onde serão criadas as classes, devem ter o mesmo nome da classe inserida nele, caso contrário ocorrerá um erro.
+A arquitetura Java é projetada para ser robusta, segura e portátil, ela possui um forte foco na organização e modularidade de código, isto é, a divisão de um programa em componentes independentes e intercambiáveis. No java, pacotes(packages) são usados para organizar classes e interfaces relacionadas, eles funcionam como namespaces para evitar conflitos de nomes, um pacote é efetivamente um diretório no sistema de arquivos. Geralmente, os nomes dos pacotes são escritos com a primeira letra  minúscula por convenção (camelCase), para evitar conflito com nomes de classes ou interfaces que são escritas com a primeira letra maiúscula (PascalCase). Os arquivos de código-fonte possuem a extenção `.java` e arquivos bytecode compilado `.class`. Os arquivos de código-fonte `.java`, onde serão criadas as classes, devem ter o mesmo nome da classe inserida nele, caso contrário ocorrerá um erro.
